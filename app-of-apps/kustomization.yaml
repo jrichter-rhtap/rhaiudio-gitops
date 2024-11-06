@@ -1,0 +1,10 @@
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+commonLabels:         
+  rhtap/gitops: aidio 
+  janus-idp.io/tekton: aidio
+  backstage.io/kubernetes-id: aidio
+  backstage.io/kubernetes-namespace: ai-rhdh-app-development 
+  app.kubernetes.io/part-of: aidio
+resources: 
+- application-dev.yaml

@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: aidio-database-config
+data:
+  VECTORDB_HOST: "aidio-database"
+  VECTORDB_PORT: ""
